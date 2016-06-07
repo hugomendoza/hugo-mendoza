@@ -3,7 +3,7 @@
 }
 
 #home {
-    background: url(../images/_DSC0161.jpg) center center;
+    background: url(../images/inicio.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 250px 0;
@@ -24,7 +24,7 @@
 }
 
 #perfil {
-    background: url(../images/_DSC0373.jpg) center center;
+    background: url(../images/perfil.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@
 }
 
 #portafolio {
-    background: url(../images/_DSC1098.jpg) center center;
+    background: url(../images/portafolio.jpg) center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
