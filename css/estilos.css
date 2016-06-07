@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+#home {
+    background: url(../images/_DSC0161.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0;
+}
+
+#menu a {
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 50px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contenedor img {
+    width: 500px;
+    padding: 25px 0;
+}
+
+#perfil {
+    background: url(../images/_DSC0373.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.contenedor2 {
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 120px 0;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.contenedor2 h2 {
+    margin: 20px 0 0 100px;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.contenedor2 .perfil img {
+    float: left;
+    width: 140px;
+    margin: 0px 30px 0px 100px;
+    padding: 10px 0;
+}
+
+.contenedor2 .perfil p {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-right: 100px;
+    line-height: 28px;
+}
+
+.contenedor2 .experiencia img {
+    float: left;
+    width: 140px;
+    margin: 10px 30px 0px 100px;
+    padding: 50px 0;
+}
+    
+.contenedor2 .experiencia ul {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-right: 100px;
+    margin-left: 100px;
+    list-style-type: none;
+    line-height: 23px;
+}
+
+.contenedor2 .experiencia ul :first-child {
+    font-weight: 700;
+}
+
+.inicio {       
+    float: right;    
+}
+
+.inicio img {
+    width: 50px;
+    margin-bottom: 100px;
+    opacity: 0.3;
+}
+
+#portafolio {
+    background: url(../images/_DSC1098.jpg) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor3 {
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px 0;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    padding-bottom: 120px;
+}
+
+.contenedor3 h2 {
+    margin: 0 0 0 100px;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.inicio2 {
+    float:right;
+    
+}
+
+.inicio2 img {
+    width: 50px;
+    opacity: 0.5;
+    }
+
+footer {
+    background: black;
+}
+
+#contacto {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 50px 0;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    line-height: 5px;
+}
+
+.lb-album li{
+    display: inline-block;
+	margin: 15px;
+    text-align: center;
+}
+
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+	background: rgb(48,48,48);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(48,48,48,0.56) 0%, rgba(48,48,48,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(48,48,48,0.56)), color-stop(100%,rgba(48,48,48,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(48,48,48,0.56) 0%,rgba(48,48,48,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(48,48,48,0.56) 0%,rgba(48,48,48,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(48,48,48,0.56) 0%,rgba(48,48,48,1) 100%);
+	background: radial-gradient(center, ellipse cover, rgba(48,48,48,0.56) 0%,rgba(48,48,48,1) 100%);
+}
+.lb-overlay > div{
+	position: relative;
+	color: rgba(27,54,81,0.8);
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	width: 550px;
+	margin: 10px auto 0px auto;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+	-webkit-transition: opacity 0.3s linear 1.3s;
+	-moz-transition: opacity 0.3s linear 1.3s;
+	-o-transition: opacity 0.3s linear 1.3s;
+	-ms-transition: opacity 0.3s linear 1.3s;
+	transition: opacity 0.3s linear 1.3s;
+}
+
+.lb-overlay a.lb-close{
+	z-index: 1001;
+	color: #fff;
+	position: absolute;
+	top: 43px;
+	left: 50%;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	width: 70px;
+	height: 23px;
+	overflow: hidden;
+	margin-left: -25px;
+	opacity: 0;
+	filter: alpha(opacity=0); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	-webkit-transition: opacity 0.3s linear 1.2s;
+	-moz-transition: opacity 0.3s linear 1.2s;
+	-o-transition: opacity 0.3s linear 1.2s;
+	-ms-transition: opacity 0.3s linear 1.2s;
+	transition: opacity 0.3s linear 1.2s;
+}
+.lb-overlay img{
+	/* height: 100%; For Opera max-height does not seem to work */
+	max-height: 100%;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	-moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+}
+.lb-overlay:target {
+	width: auto;
+	height: auto;
+	bottom: 0px;
+	right: 0px;
+	padding: 80px 100px 120px 100px;
+}
+.lb-overlay:target img {
+	-webkit-animation: fadeInScale 1.2s ease-in-out;
+	-moz-animation: fadeInScale 1.2s ease-in-out;
+	-o-animation: fadeInScale 1.2s ease-in-out;
+	-ms-animation: fadeInScale 1.2s ease-in-out;
+	animation: fadeInScale 1.2s ease-in-out;
+}
+.lb-overlay:target a.lb-close,
+.lb-overlay:target > div{
+	opacity: 1;
+	filter: alpha(opacity=99); /* internet explorer */
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+}
+@-webkit-keyframes fadeInScale {
+  0% { -webkit-transform: scale(0.6); opacity: 0; }
+  100% { -webkit-transform: scale(1); opacity: 1; }
+}
+@-moz-keyframes fadeInScale {
+  0% { -moz-transform: scale(0.6); opacity: 0; }
+  100% { -moz-transform: scale(1); opacity: 1; }
+}
+@-o-keyframes fadeInScale {
+  0% { -o-transform: scale(0.6); opacity: 0; }
+  100% { -o-transform: scale(1); opacity: 1; }
+}
+@-ms-keyframes fadeInScale {
+  0% { -ms-transform: scale(0.6); opacity: 0; }
+  100% { -ms-transform: scale(1); opacity: 1; }
+}
+@keyframes fadeInScale {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+*/
+x:-o-prefocus, .lb-overlay img {
+    height: 100%;
+}
+
+
+
+
+
+
